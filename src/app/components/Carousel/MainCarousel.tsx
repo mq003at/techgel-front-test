@@ -26,7 +26,7 @@ export default function MainCarousel() {
     {
       src: "/assets/quoc-te-noi-bai.webp",
       alt: "quoc-te-noi-bai",
-      title: "SÂN BAY QUỐC TẾ NỘI BÀI",
+      title: "SÂN BAY QUỐC TẾ NỘI B",
     },
   ];
 

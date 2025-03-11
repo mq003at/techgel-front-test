@@ -1,4 +1,3 @@
-import Link from "next/link";
 import HeaderCategory, { HeaderCategoryProps } from "./HeaderCategory";
 import HeaderMainLogo from "./HeaderMainLogo";
 import IconWrapper from "../Misc/IconWrapper";

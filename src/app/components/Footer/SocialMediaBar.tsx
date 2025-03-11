@@ -9,8 +9,8 @@ const socialMedia: IconWrapperProps[] = [
 export default function SocialMediaBar() {
   return (
     <div className="justify-center p-[15px] flex flex-row gap-4">
-      {socialMedia.map((media) => (
-        <IconWrapper {...media} width={25} height={25}/>
+      {socialMedia.map((media, i) => (
+        <IconWrapper key={`social-media-${i}`} {...media} width={25} height={25}/>
       ))}
     </div>
   );
